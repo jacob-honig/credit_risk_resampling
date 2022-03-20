@@ -2,20 +2,20 @@
 
 # About
 
-This report is a time series analysis of MercadoLibre's financial and user data. This report includes metrics such as standard deviation, hourly stock return, and lagged search trends to determine potential correlations. This report also includes data visualization to determine hourly trends, weekly trends, seasonal trends, and projected revenues and search trends. 
+This analysis uses supervised machine learning to predict the creditworthiness of borrowers. The analysis uses historical lending activity to train two logistic regression models, one with  original data and one with resampled data. 
 
-This report is an assignment for the eleventh week of the FinTech bootcamp curriculum by Trilogy Education Services.
+This analysis is an assignment for the twelfth week of the FinTech bootcamp curriculum by Trilogy Education Services.
 
 # Technologies
 
-This analysis was made using Python (v3.7.0), WindowsOS (v20H2), and JupyterLab.
+This model was made using Python (v3.7.0), WindowsOS (v20H2), and JupyterLab.
 
-This analysis uses the following libraries and dependencies: <br/>
-pandas, numpy, pystan, holoview, hvplot, fbprophet, datetime, and matplotlib.
+This model uses the following libraries and dependencies: <br/>
+pandas, numpy, pathlib, sklearn, imblearn, warnings
 
 # Data
 
-This analysis reads data from three csv files. The data includes hourly google search trends, hourly stock quotes, and daily revenues. 
+This model is trained using data read from a csv file. The data includes loan size, interest rate, borrower income, debt to income, number of accounts, derogatory marks, total debt, and loan status. 
 
 # Contributors
 
